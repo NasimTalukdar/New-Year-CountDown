@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+h1{
+    font-family: 'Aladin', cursive;
+    font-size: 150px;
+    text-shadow: 5px 5px 10px rgba(126, 98, 98, 0.65);
+    letter-spacing: 5px;
+    color: #eb531b;
+}
+.countDown-container{
+    width: 900px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px 1px #eb531b;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: content-box;
+    border-radius: 30px;
+}
+.countDown-container .time{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #eb531b;
+    border-radius: 40px;
+    float: left;
+    margin-right: 20px;
+}
+.countDown-container .time:last-child{
+    margin-right: 0;
+}
+.countDown-container .time h3{
+    font-family: 'Aladin', cursive;
+    font-size: 60px;
+    text-shadow: 5px 5px 10px rgba(126, 98, 98, 0.65);
+    letter-spacing: 5px;
+    color: #eb531b;
+    padding-top: 40px;
+}
+.countDown-container .time p{
+    font-family: 'Aladin', cursive;
+    font-size: 40px;
+    text-shadow: 5px 5px 10px rgba(126, 98, 98, 0.65);
+    letter-spacing: 5px;
+    color: #eb531b;
+}
